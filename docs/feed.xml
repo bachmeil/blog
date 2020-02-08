@@ -6,10 +6,10 @@
   <description></description>
 
 	<item>
-	<title>Hello World</title>
-  <link>http://localhost:8000post/hello-world.html</link>
+	<title>My New Blog</title>
+  <link>http://localhost:8000post/starting.html</link>
 	<description></description>
-	<pubDate>Fri, 07 Feb 2020 20:15:53 -0600</pubDate>
+	<pubDate>Fri, 07 Feb 2020 20:28:12 -0600</pubDate>
 </item>
 
 </channel>
