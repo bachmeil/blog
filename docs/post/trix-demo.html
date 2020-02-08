@@ -5,6 +5,10 @@
 <div style="max-width: 850px; margin: auto;">
 <trix-editor></trix-editor>
 <a onclick="localsave()" href="javascript:void(0);">Save</a> <a onclick="localload()" href="javascript:void(0);">Load</a>
+
+This is a demo of the Trix editor. Enter text in the box above. Attachments are not supported but all of the formatting works.
+
+Everything is autosaved to local storage every two seconds. If you close your browser, the most recently saved data will be reloaded when you come back to this site. You really shouldn't have any use for the "Save" and "Load" links, but they demonstrate how you can save and reload content manually if you want.
 </div>
 <script>
   function localsave() { 
@@ -21,7 +25,3 @@
   window.onload = localload;    // load saved content so it's not lost
   setInterval(localsave, 2000); // autosave every two seconds
 </script>
-
-This is a demo of the Trix editor. Enter text in the box above. Attachments are not supported but all of the formatting works.
-
-Everything is autosaved to local storage every two seconds. If you close your browser, the most recently saved data will be reloaded when you come back to this site. You really shouldn't have any use for the "Save" and "Load" links, but they demonstrate how you can save and reload content manually if you want.
