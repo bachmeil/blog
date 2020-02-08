@@ -8,7 +8,7 @@ A commenter asked
 
 > Has anyone built a substantial one like this for their own use?
 
-I don't know what is meant by "substantial", but I did have [an old experiment sitting around](https://gist.github.com/bachmeil/7c19e72b9a5c49a85e8cecb0b7a7f3ca). In only 20 lines of html, you get a full [Trix editor](https://trix-editor.org/) thanks to [the CDN linked on cdnjs](https://cdnjs.com/libraries/trix). It has the following features:
+I don't know what is meant by "substantial", but I did have [an old experiment sitting around](https://gist.github.com/bachmeil/7c19e72b9a5c49a85e8cecb0b7a7f3ca). In only 20 lines of html, you get a full [Trix editor](https://trix-editor.org/) thanks to [the CDN linked on cdnjs](https://cdnjs.com/libraries/trix). You can [test a demo here](trix-demo.html). It has the following features:
 
 - WYSIWYG editor
 - Professional design (by the Basecamp team, not me)
@@ -24,7 +24,7 @@ While this is cool, I've really never used it for anything substantial, because 
 - Make it possible to submit the content to a web server.
 - Support creation of and working with multiple notes. Basically a poor man's Tiddly Wiki. This really is outside my expertise. If I did this, it would only be for the fun of learning.
 
-As usually happens in these discussions, alternatives were posted. [One is called Scratchpad](https://sesh.github.io/scratchpad/). A few others are linked on [that project's Github page](https://github.com/sesh/scratchpad). [Someone posted this valid URL](https://news.ycombinator.com/item?id=22253722):
+As usually happens in these discussions, alternatives were posted. [One is called Scratchpad](https://sesh.github.io/scratchpad/). A few others are linked on [that project's Github page](https://github.com/sesh/scratchpad). Someone posted [this valid URL](https://news.ycombinator.com/item?id=22253722):
 
 ```
 data:text/html, <html contenteditable>

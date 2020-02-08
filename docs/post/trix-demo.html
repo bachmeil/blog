@@ -15,6 +15,13 @@
     var element = document.querySelector("trix-editor")
     element.editor.loadJSON(JSON.parse(localStorage["editorState"])) 
   }
+  function clearcontent() {
+    var element = document.querySelector("trix-editor")
+    
   window.onload = localload;    // load saved content so it's not lost
   setInterval(localsave, 2000); // autosave every two seconds
 </script>
+
+This is a demo of the Trix editor. Enter text in the box above. Attachments are not supported but all of the formatting works.
+
+Everything is autosaved to local storage every two seconds. If you close your browser, the most recently saved data will be reloaded when you come back to this site. You really shouldn't have any use for the "Save" and "Load" links, but they demonstrate how you can save and reload content manually if you want.
