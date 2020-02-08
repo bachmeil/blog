@@ -19,9 +19,6 @@ Everything is autosaved to local storage every two seconds. If you close your br
     var element = document.querySelector("trix-editor")
     element.editor.loadJSON(JSON.parse(localStorage["editorState"])) 
   }
-  function clearcontent() {
-    var element = document.querySelector("trix-editor")
-    
   window.onload = localload;    // load saved content so it's not lost
   setInterval(localsave, 2000); // autosave every two seconds
 </script>
