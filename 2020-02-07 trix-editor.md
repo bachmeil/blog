@@ -23,3 +23,11 @@ While this is cool, I've really never used it for anything substantial, because 
 - Add support for attachments. They [have an example](https://trix-editor.org/js/attachments.js) but that's not a five-minute exercise for someone with my limited understanding of Javascript.
 - Make it possible to submit the content to a web server.
 - Support creation of and working with multiple notes. Basically a poor man's Tiddly Wiki. This really is outside my expertise. If I did this, it would only be for the fun of learning.
+
+As usually happens in these discussions, alternatives were posted. [One is called Scratchpad](https://sesh.github.io/scratchpad/). A few others are linked on [the project's Github page](https://github.com/sesh/scratchpad). [Someone posted this valid URL](https://news.ycombinator.com/item?id=22253722):
+
+```
+data:text/html, <html contenteditable>
+```
+
+That really is a valid URL. Put that into your browser and then you can type directly in your browser. Interesting for sure, but not that helpful, since it doesn't use local storage.
