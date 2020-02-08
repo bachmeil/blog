@@ -1,0 +1,20 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/trix/1.2.1/trix.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/trix/1.2.1/trix.js"></script>
+</head>
+<div style="max-width: 850px; margin: auto;">
+<trix-editor></trix-editor>
+<a onclick="localsave()" href="javascript:void(0);">Save</a> <a onclick="localload()" href="javascript:void(0);">Load</a>
+</div>
+<script>
+  function localsave() { 
+    var element = document.querySelector("trix-editor")
+    localStorage["editorState"] = JSON.stringify(element.editor) 
+  }
+  function localload() { 
+    var element = document.querySelector("trix-editor")
+    element.editor.loadJSON(JSON.parse(localStorage["editorState"])) 
+  }
+  window.onload = localload;    // load saved content so it's not lost
+  setInterval(localsave, 2000); // autosave every two seconds
+</script>
