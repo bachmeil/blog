@@ -58,39 +58,29 @@
         <a href="../index.html" class="home">←</a><div class="contents">
         
 <p>There was a recent HN link to <a href="https://www.mytextarea.com/">an in-browser text editor</a>.</p>
-<p>I have no idea why that site appeals to people. Text editors are abundant and fast, so there's no obvious reason why someone would want to use a plain editor like that, especially <a href="https://news.ycombinator.com/item?id=22254473">one which isn't entirely private</a>. It's apparently <a href="https://news.ycombinator.com/item?id=22253583">a Hacker News thing</a> that I'd never heard about before.</p>
+<p>I have no idea why that site appeals to people. Text editors are abundant and fast, so there’s no obvious reason why someone would want to use a plain editor like that, especially <a href="https://news.ycombinator.com/item?id=22254473">one which isn’t entirely private</a>. It’s apparently <a href="https://news.ycombinator.com/item?id=22253583">a Hacker News thing</a> that I’d never heard about before.</p>
 <p>A commenter asked</p>
 <blockquote>
 <p>Has anyone built a substantial one like this for their own use?</p>
 </blockquote>
-<p>I don't know what is meant by "substantial", but I did have <a href="https://gist.github.com/bachmeil/7c19e72b9a5c49a85e8cecb0b7a7f3ca">an old experiment sitting around</a>. In only 20 lines of html, you get a full <a href="https://trix-editor.org/">Trix editor</a> thanks to <a href="https://cdnjs.com/libraries/trix">the CDN linked on cdnjs</a>. It has the following features:</p>
+<p>I don’t know what is meant by “substantial”, but I did have <a href="https://gist.github.com/bachmeil/7c19e72b9a5c49a85e8cecb0b7a7f3ca">an old experiment sitting around</a>. In only 20 lines of html, you get a full <a href="https://trix-editor.org/">Trix editor</a> thanks to <a href="https://cdnjs.com/libraries/trix">the CDN linked on cdnjs</a>. It has the following features:</p>
 <ul>
-<li>
-WYSIWYG editor
-</li><li>
-Professional design (by the Basecamp team, not me)
-</li><li>
-Ability to save to and load from local storage
-</li><li>
-Automatically loads your previous content if you restart your browser
-</li><li>
-Autosaves every to local storage every two seconds
-</li>
+<li>WYSIWYG editor</li>
+<li>Professional design (by the Basecamp team, not me)</li>
+<li>Ability to save to and load from local storage</li>
+<li>Automatically loads your previous content if you restart your browser</li>
+<li>Autosaves every to local storage every two seconds</li>
 </ul>
-<p>If you want an in-browser text editor, you could do a lot worse. It's really cool that I was able to cook the whole thing up in just a few minutes in spite of the fact that I don't know much about web development. All you have to do is copy the twenty lines into an html file and load the file in your browser.</p>
-<p>While this is cool, I've really never used it for anything substantial, because it makes more sense to me to use a regular text editor. In a hypothetical world where I wanted to do more with it, I would:</p>
+<p>If you want an in-browser text editor, you could do a lot worse. It’s really cool that I was able to cook the whole thing up in just a few minutes in spite of the fact that I don’t know much about web development. All you have to do is copy the twenty lines into an html file and load the file in your browser.</p>
+<p>While this is cool, I’ve really never used it for anything substantial, because it makes more sense to me to use a regular text editor. In a hypothetical world where I wanted to do more with it, I would:</p>
 <ul>
-<li>
-Add support for attachments. They <a href="https://trix-editor.org/js/attachments.js">have an example</a> but that's not a five-minute exercise for someone with my limited understanding of Javascript.
-</li><li>
-Make it possible to submit the content to a web server.
-</li><li>
-Support creation of and working with multiple notes. Basically a poor man's Tiddly Wiki. This really is outside my expertise. If I did this, it would only be for the fun of learning.
-</li>
+<li>Add support for attachments. They <a href="https://trix-editor.org/js/attachments.js">have an example</a> but that’s not a five-minute exercise for someone with my limited understanding of Javascript.</li>
+<li>Make it possible to submit the content to a web server.</li>
+<li>Support creation of and working with multiple notes. Basically a poor man’s Tiddly Wiki. This really is outside my expertise. If I did this, it would only be for the fun of learning.</li>
 </ul>
-<p>As usually happens in these discussions, alternatives were posted. <a href="https://sesh.github.io/scratchpad/">One is called Scratchpad</a>. A few others are linked on <a href="https://github.com/sesh/scratchpad">the project's Github page</a>. <a href="https://news.ycombinator.com/item?id=22253722">Someone posted this valid URL</a>:</p>
-<p><code>` data:text/html, &lt;html contenteditable> &#8221;`</p>
-<p>That really is a valid URL. Put that into your browser and then you can type directly in your browser. Interesting for sure, but not that helpful, since it doesn't use local storage.</p>
+<p>As usually happens in these discussions, alternatives were posted. <a href="https://sesh.github.io/scratchpad/">One is called Scratchpad</a>. A few others are linked on <a href="https://github.com/sesh/scratchpad">the project’s Github page</a>. <a href="https://news.ycombinator.com/item?id=22253722">Someone posted this valid URL</a>:</p>
+<pre><code>data:text/html, &lt;html contenteditable&gt;</code></pre>
+<p>That really is a valid URL. Put that into your browser and then you can type directly in your browser. Interesting for sure, but not that helpful, since it doesn’t use local storage.</p>
         <div class="tags"></div>
         </div>
       </article>
