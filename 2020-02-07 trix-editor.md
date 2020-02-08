@@ -22,4 +22,4 @@ While this is cool, I've really never used it for anything substantial, because 
 
 - Add support for attachments. They [have an example](https://trix-editor.org/js/attachments.js) but that's not a five-minute exercise for someone with my limited understanding of Javascript.
 - Make it possible to submit the content to a web server.
-- Support creation of and working with multiple notes. Basically a poor man's Tiddly wiki. This really is outside my expertise. If I did this, it would only be for the fun of learning.
+- Support creation of and working with multiple notes. Basically a poor man's Tiddly Wiki. This really is outside my expertise. If I did this, it would only be for the fun of learning.
