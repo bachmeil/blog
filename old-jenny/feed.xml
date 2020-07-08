@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<rss version="2.0">
+<channel>
+  <title>My Blog</title>
+  <link>http://localhost:8000</link>
+  <description></description>
+
+	<item>
+	<title>Updating Fossil on Ubuntu</title>
+  <link>http://localhost:8000post/updating-fossil.html</link>
+	<description></description>
+	<pubDate>Mon, 10 Feb 2020 21:34:28 -0600</pubDate>
+</item>
+<item>
+	<title>A Theme For Fossil</title>
+  <link>http://localhost:8000post/fossil-skins.html</link>
+	<description></description>
+	<pubDate>Mon, 10 Feb 2020 21:46:33 -0600</pubDate>
+</item>
+<item>
+	<title>HN Discussion of Text File Productivity</title>
+  <link>http://localhost:8000post/hn-text-productivity.html</link>
+	<description></description>
+	<pubDate>Sat, 08 Feb 2020 17:16:23 -0600</pubDate>
+</item>
+<item>
+	<title>A Simple Text Editor In The Browser</title>
+  <link>http://localhost:8000post/trix-editor.html</link>
+	<description></description>
+	<pubDate>Sat, 08 Feb 2020 04:29:01 -0600</pubDate>
+</item>
+<item>
+	<title>My New Blog</title>
+  <link>http://localhost:8000post/starting.html</link>
+	<description></description>
+	<pubDate>Fri, 07 Feb 2020 20:33:52 -0600</pubDate>
+</item>
+
+</channel>
+</rss>
