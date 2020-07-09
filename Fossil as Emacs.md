@@ -6,4 +6,19 @@ My version control software of choice is Fossil. The starting point for understa
 
 [^1]: It might seem ironic that I claim Fossil is my version control of choice when this very blog post is on Github Pages. The simple answer to that is that Github Pages is not version control, it's a website.
 
-I prefer to think of Fossil as the Emacs of version control. It provides the core version control tools you'd expect, but that's only a small part of Fossil's functionality.
+I prefer to think of Fossil as the Emacs of version control. It provides the core version control tools you'd expect, but that's only a small part of Fossil's functionality, which includes:
+
+- A bug tracker
+- A CGI web server that can be used to serve your site over the internet or locally
+- A forum for discussions
+- A wiki
+
+Everything is stored in an sqlite database. While that's an impressive set of features (I love all of them) none of them are worthy of comparison with Emacs. The reason Fossil is the Emacs of version control is the customization options:
+
+- Full CSS customization.
+- Full page rendering customization.
+- Ability to query the sqlite database directly.
+- The bug tracker is actually a version controlled sqlite database that can be customized to hold and query any data you want.
+- CGI extensions let you add arbitrary extensions written in any language.
+
+There's literally nothing you can't do with Fossil. That's very much the same as you get with Emacs.
