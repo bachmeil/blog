@@ -68,7 +68,7 @@
         const md = markdownit().use(tm, { engine: katex,
                                           delimiters:'dollars',
                                           katexOptions: { macros: {"\\RR": "\\mathbb{R}"} }
-                                        }).use(footnote_plugin);
+                                        }).use(markdownitFootnote);
 				var url = new URL(document.location.href);
 	    			var sp = Array.from(url.searchParams);
 	    			var fn;
