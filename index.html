@@ -6,6 +6,7 @@
   <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/markdown-it-texmath/texmath.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it-footnote@3.0.2/dist/markdown-it-footnote.min.js"></script>
   <style type="text/css">
 		body {
 				margin: auto;
@@ -67,7 +68,7 @@
         const md = markdownit().use(tm, { engine: katex,
                                           delimiters:'dollars',
                                           katexOptions: { macros: {"\\RR": "\\mathbb{R}"} }
-                                        });
+                                        }).use(footnote_plugin);
 				var url = new URL(document.location.href);
 	    			var sp = Array.from(url.searchParams);
 	    			var fn;
