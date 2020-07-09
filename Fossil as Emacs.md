@@ -1,6 +1,8 @@
 # Fossil as the Emacs of version control
 
-Everyone knows Git has taken over the world of version control. Even though it suffers from horrendous design issues, Github, Gitlab, and Bitbucket are the tools of choice for the vast majority of the software world, especially open source projects. Many developers aren't even aware that it's possible to use an alternative version control system.
+Everyone knows Git has taken over the world of version control. Even though it suffers from horrendous design issues, Github, Gitlab, and Bitbucket are the tools of choice for the vast majority of the software world, especially open source projects. Many developers aren't even aware that it's possible to use an alternative version control[^1] system.
+
+[^1]: footnote
 
 My version control software of choice is Fossil. The starting point for understanding why that's the case is to recognize that *Fossil is not a Git replacement*. Git was created for the development of the Linux kernel. If that's your use case, you won't do better than Git. That's pretty much the opposite of my use case, so the case for me using Git is less obvious.
 
